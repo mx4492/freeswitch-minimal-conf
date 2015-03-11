@@ -9,3 +9,6 @@ aims to take the reverse stance -- it attempts to be a starting point
 for configuring a new system by "adding" required features (instead of
 removing them as one would do if one starts with the default
 configuration).
+
+This folder also includes the corresponding `modules.conf` that lists
+the modules that are required to get this configuration working.
