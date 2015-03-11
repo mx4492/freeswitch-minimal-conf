@@ -12,3 +12,12 @@ configuration).
 
 This folder also includes the corresponding `modules.conf` that lists
 the modules that are required to get this configuration working.
+
+### Test
+
+This configuration was tested by sending an INVITE (without
+registration) using the `siprtp` example program that comes with
+PJSIP, and verifying that the info dump is produced on the FreeSWITCH
+console.
+
+    $ ./siprtp -q -p 1234 "sip:stub@$(my_ip):5080"
