@@ -21,3 +21,7 @@ PJSIP, and verifying that the info dump is produced on the FreeSWITCH
 console.
 
     $ ./siprtp -q -p 1234 "sip:stub@$(my_ip):5080"
+
+### Other Minimal Configurations
+
+* [voxserv/freeswitch_conf_minimal](https://github.com/voxserv/freeswitch_conf_minimal)
